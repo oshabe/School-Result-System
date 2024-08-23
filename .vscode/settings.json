@@ -1,0 +1,30 @@
+{
+    "intelephense.phpdoc.useFullyQualifiedNames": true,
+    "intelephense.phpdoc.classTemplate": {
+
+        
+        "summary": "$1",
+        "tags": [
+            "@package ${1:$SYMBOL_NAMESPACE}"
+        ]
+    },
+    "intelephense.phpdoc.propertyTemplate": {
+        
+
+        "summary": "$1",
+        "tags": [
+            "@var ${1:$SYMBOL_TYPE}"
+        ]
+    },
+    "intelephense.phpdoc.functionTemplate": {
+
+
+        "summary": "$1",
+        "tags": [
+            "@param ${1:$SYMBOL_TYPE} $SYMBOL_NAME $2",
+            "@return ${1:$SYMBOL_TYPE} $2",
+            "@throws ${1:$SYMBOL_TYPE} $2"
+        ]
+    },
+    "intelephense.telemetry.enabled": true
+}
